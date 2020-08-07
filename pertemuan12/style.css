@@ -1,0 +1,28 @@
+/* transition -> properti yang memungkinkan kita dapat mengubah nilai dari property HTML secara halus 
+transition vs animation
+transition -> [property] <durasi> [fungsi] [delay];
+animation ->
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    margin: 10px auto;
+    border: 3px solid #ddd;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    transition: margin-left .5s;
+}
+
+.container:hover .kotak {
+    transform: rotate(90deg);
+    margin-left: 400px;
+    transition: margin-left 1s;
+}

@@ -1,0 +1,11 @@
+/* gradients -> teknik memberikan warna gradasi pada element*/
+/* linear-gradient. radial-gradient */
+div {
+    width: 500px;
+    height: 300px;
+    /* background-image: linear-gradient(rgb(140, 0, 168), rgb(161, 0, 161), rgb(160, 0, 160), rgb(161, 0, 182)); */
+    /* background-image: linear-gradient(red, white, white); */
+    /* background-image: linear-gradient(100deg, red, green); */
+    background-image: linear-gradient(to left bottom, rgb(96, 16, 116), rgb(112, 15, 131));
+    margin: 50px auto;
+}

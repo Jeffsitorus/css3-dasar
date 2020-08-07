@@ -1,0 +1,45 @@
+/* transition */
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px 0;
+}
+
+.kotak1 {
+    transition: 2s ease;
+}
+
+.kotak2 {
+    transition: 2s ease-in .2s;
+}
+
+.kotak3 {
+    transition: 2s ease-out;
+}
+
+.kotak4 {
+    transition: 2s ease-in-out;
+}
+
+.kotak5 {
+    transition: 2s linear;
+}
+
+.kotak6 {
+    transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.container {
+    width: 1000px;
+    margin: 10px auto;
+    border: 3px solid #666;
+}
+
+.container:hover .kotak {
+    transform: rotate(180deg);
+    margin-left: 900px;
+    background-color: royalblue;
+}

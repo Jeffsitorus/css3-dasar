@@ -1,0 +1,25 @@
+/* box-shadow -> memberikan bayangan pada element */
+body {
+    background: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #ccc;
+    font-size: 60px;
+    margin: 50px auto;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .2);
+    background-color: #eee;
+    transition: .7s;
+    cursor: pointer;
+}
+
+div:hover {
+    box-shadow: 0 2px 3px 5px rgba(0, 0, 0, .1);
+}
